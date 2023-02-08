@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+.content {
+	height: 100vh;
+	background-image: url("../images/academy-banner.jpg");
+	background-size: 100% 100%;
+}
+.firstimg {
+	text-align: right;
+	padding: 100px;
+}
+.fs {
+	font-size: 4vw;
+}
+.img {
+	width: 50%;
+}
+.second {
+	height: 100vh;
+}
+.second1 {
+	background-color: black;
+	color: lightblue;
+	margin: -9.3%;
+}
+.second1 p::before {
+	content: "{";
+	color: rgb(216, 57, 36);
+}
+.second1 p::after {
+	content: "}";
+	color: rgb(216, 57, 36);
+}
+.paragraph1 {
+	text-align: center;
+}
+
+.php_mysql {
+	background-image: url("../images/modulebg.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.php_div {
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-top: 10%;
+	padding: 5px;
+	color: #ffff;
+	border-radius: 10px;
+	text-align: center;
+}
+.paragraph2 {
+	align-items: center;
+	padding: 20px;
+}
+.paragraph4 {
+	background-image: url("../images/testsbg.jpg");
+	width: 50%;
+	height: 500px;
+	padding: 25px;
+}
+.paragraph5 {
+	background-image: url("../images/intrvwbg.jpg");
+	width: 50%;
+	height: 500px;
+	padding: 25px;
+}
+.oral {
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.445);
+	flex-wrap: wrap;
+	color: #ffffff;
+}
+
+/* .journey {
+	text-align: center;
+	color: #181e22;
+	margin: 5% 0;
+} */
+.join {
+	text-align: center;
+}
+.join a {
+	text-decoration: none;
+	color: #f26422;
+	border: solid 2px #f26422;
+	padding: 15px 25px;
+}
+.contact {
+	text-align: center;
+}
+.address {
+	width: 100%;
+	justify-content: center;
+}
+.details1 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.details2 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.graph {
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		min-width: 0;
+		width: 100%;
+	}
+
+	.second1 {
+		background-color: black;
+		color: lightblue;
+		margin: 0;
+	}
+	.paragraph4 {
+		width: 100%;
+		background-size: cover;
+		padding: 25px;
+	}
+	.paragraph5 {
+		width: 100%;
+		background-size: cover;
+		padding: 25px;
+	}
+}
